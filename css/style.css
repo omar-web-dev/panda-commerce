@@ -1,7 +1,21 @@
+.categories img{
+    width: 100px;
+}
 .my-bg-danger{
     background-color: #FCEAE8;
 }
 .my-btn-danger{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #FCEAE8;
+}
+
+.my-btn {
+  color: #FCEAE8;
+  background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+  border:0;
+}
+.my-btn:hover {
+  color: #000;
+  background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+  border:0;
 }
