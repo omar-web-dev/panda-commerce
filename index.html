@@ -18,7 +18,7 @@
     <!-- ================ header section start ============== -->
     <header>
         <!-- ------ navbar --------- -->
-        <nav class="navbar navbar-expand-lg bg-light ">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" class="img-fluid" alt="">
@@ -31,22 +31,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="container mb-5">
+        <section class="container mb-5 " id="home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -109,6 +109,7 @@
     <!-- ================ header section start ============== -->
     <!-- ================ header section start ============== -->
     <main>
+        <!-- ------------ catagory ------------- -->
         <section class="catagory my-5">
             <div class="container d-block mt-5">
                 <div class="row gy-5">
@@ -133,7 +134,8 @@
                 </div>
             </div>
         </section>
-        <section class="shoes my-5">
+        <!-- ------------- shoes ---------------- -->
+        <section class="shoes my-5" id="shoes">
             <div class="container">
                 <h2 class="mb">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -173,6 +175,7 @@
               </div>
             </div>
         </section>
+        <!-- --------------- bag ----------------- -->
         <section class="shoes my-5">
             <div class="container">
                 <h2 class="mb">Backpack</h2>
@@ -213,9 +216,30 @@
               </div>
             </div>
         </section>
-
+        <!-- --------- subscribe section start --------------- -->
+        <div class="section subscribe px-3" id="subscribe">
+            <div class="container d-flex rounded-2 justify-content-center py-5 bg-info">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p>Get updates on sales, specials and more</p>
+                    <form class="row g-1">
+                    <div class="col-12">
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- ================ header section start ============== -->
+    <!-- ================ footer section end ============== -->
+    <footer class="mt-5 mb-3">
+        <div class="text-center">©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</div>
+    </footer>
+    <!-- ================ footer section start ============== -->
 
     <!-- ----- font awesame js link ---  -->
     <script src="js/brands.min.js"></script>
